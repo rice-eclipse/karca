@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "karca_v1_0.kicad_pro",
+    "filename": "karca.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -320,6 +320,18 @@
     [
       "6f0d28bb-86f6-4893-a83f-636fb3bfe0e4",
       ""
+    ],
+    [
+      "20b02270-678b-48e7-88d9-1468bb2ccccb",
+      "regulators"
+    ],
+    [
+      "7c851058-723c-46a6-8f71-0b02d6bf3ba0",
+      "Drivers"
+    ],
+    [
+      "65b2f578-7f47-4e10-b498-8cc5c2de5ceb",
+      "Load Cell Inamps"
     ]
   ],
   "text_variables": {}
