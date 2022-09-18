@@ -332,6 +332,14 @@
     [
       "65b2f578-7f47-4e10-b498-8cc5c2de5ceb",
       "Load Cell Inamps"
+    ],
+    [
+      "5be75c7d-aeaf-4651-903f-4fa3c98c0d90",
+      "Load Cell Anti-Aliasing"
+    ],
+    [
+      "d974749e-215f-46b5-a007-0416cfb921b4",
+      "PT Amplification"
     ]
   ],
   "text_variables": {}
