@@ -340,6 +340,18 @@
     [
       "d974749e-215f-46b5-a007-0416cfb921b4",
       "PT Amplification"
+    ],
+    [
+      "2ecca342-0668-4e36-84dc-b8a6ec02bba5",
+      "Thermocouples"
+    ],
+    [
+      "f9b56273-510a-4f1f-8845-adebb323cd86",
+      "ADCs"
+    ],
+    [
+      "1d2f7b4c-e83f-4cee-b3c6-61e1093bdc7e",
+      "Raspberry Pi"
     ]
   ],
   "text_variables": {}
