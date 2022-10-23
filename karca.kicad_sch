@@ -14,9 +14,6 @@
   )
 
 
-  (no_connect (at 158.75 104.14) (uuid 2c4495ba-a7cc-443e-8366-1cd5fee1eb3c))
-  (no_connect (at 147.32 74.93) (uuid ab6d519e-5dc4-4d13-9711-8aa065784686))
-
   (text "Control system and data collection for inert flow and static hot fires of experimental hybrid engines.\n\nCompatible Engines:\n	- Luna\n	- Proxima\n	- Titan II\n\nARCA 2.0 is a re-spin of ARCA, which is a design upgrade on \"Mk 1.1\"\n\nAvionics Lead: Spencer Darwall\nSubteam Lead: Amy Danjul\nAvionics Engineers: Clayton Ramsey, Rosemary Lach, Justin Guilak, Riley Kuhlman, Matthew Nutt,\n				Mitchell Hoffman, Jonah Yi, Jonathan Enrique Avecilla Torres"
     (at 19.05 59.69 0)
     (effects (font (size 1.5 1.5)) (justify left bottom))
@@ -526,6 +523,18 @@
     (path "/1d2f7b4c-e83f-4cee-b3c6-61e1093bdc7e/8e3b358b-c27c-41cf-bdc8-f8d2a7ae6657"
       (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
     )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/8c84cc08-da67-40c2-b109-2d39618c3f11"
+      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/c4ca8a9e-22e8-4762-af5a-632adfc2bdb3"
+      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/6d3309fa-b7b1-46b5-bd03-d537d88be12c"
+      (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/6bcf7a82-f3c8-41e1-a7e7-4d3c3cca7a00"
+      (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
+    )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/36f044c9-fb7c-4c71-ae3b-fb0fd791c0b7"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
@@ -746,7 +755,7 @@
       (reference "J1") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/c6bda03c-735a-41f5-a1c2-5a367a7d6281"
-      (reference "J2") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/3e932c9a-b5f3-414b-ae9b-ff56bfd2d675"
       (reference "J3") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -755,7 +764,7 @@
       (reference "J4") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/4c32361c-ca97-431c-bc79-d1b7b1ffe29f"
-      (reference "J5") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/9580f1e1-779a-4fab-b226-977b3cca3ab9"
       (reference "J6") (unit 1) (value "Conn_01x04_Female") (footprint "karca_custom_footprints:LPTA-4pos")
@@ -767,7 +776,7 @@
       (reference "J8") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/320576c1-026b-4995-8cb2-98e00f04f40a"
-      (reference "J9") (unit 1) (value "Conn_01x08_Female") (footprint "")
+      (reference "J9") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/1efafe39-2cbf-4770-b7df-d58ae82a89f3"
       (reference "J10") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -788,7 +797,7 @@
       (reference "J15") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/aa9b461a-b0d2-4d93-89e7-bc0c9ab5ec84"
-      (reference "J16") (unit 1) (value "Conn_01x08_Female") (footprint "")
+      (reference "J16") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/d971d721-121f-4d48-9d30-c307aaf5b995"
       (reference "J17") (unit 1) (value "Conn_01x04_Female") (footprint "karca_custom_footprints:LPTA-4pos")
@@ -812,28 +821,28 @@
       (reference "J23") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/cc401bc7-2e0c-46b2-9191-dc492477bc73"
-      (reference "J29") (unit 1) (value "Conn_01x03_Female") (footprint "")
+      (reference "J29") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/2534c5a0-85c1-43aa-8b9b-886a4d5dbf28"
-      (reference "J30") (unit 1) (value "Conn_01x03_Female") (footprint "")
+      (reference "J30") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/e32b4b28-5f95-43a6-ab32-90bca7cf5541"
-      (reference "J31") (unit 1) (value "Conn_01x03_Female") (footprint "")
+      (reference "J31") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/30821086-6608-44f8-a71f-7ccd44cb2576"
-      (reference "J32") (unit 1) (value "Conn_01x03_Female") (footprint "")
+      (reference "J32") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/f9b56273-510a-4f1f-8845-adebb323cd86/30c42839-e8ac-4d89-9da8-f89a945b400d"
-      (reference "J33") (unit 1) (value "Conn_01x08_Female") (footprint "")
+      (reference "J33") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/f9b56273-510a-4f1f-8845-adebb323cd86/22c018ef-9e5f-41d3-b2ea-5d084a5462fb"
-      (reference "J34") (unit 1) (value "Conn_01x08_Female") (footprint "")
+      (reference "J34") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/f9b56273-510a-4f1f-8845-adebb323cd86/d7a8aa18-6f5c-4e71-bf66-50bfdcaa966e"
-      (reference "J35") (unit 1) (value "Conn_01x08_Female") (footprint "")
+      (reference "J35") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/1d2f7b4c-e83f-4cee-b3c6-61e1093bdc7e/b4980eca-78e9-4773-8b1f-c19d03134ada"
-      (reference "J36") (unit 1) (value "2540-5") (footprint "")
+      (reference "J36") (unit 1) (value "2540-5") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/19d4c51c-865d-4ed3-ab30-aac196ef5df9"
       (reference "Q1") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
@@ -1085,22 +1094,22 @@
       (reference "R77") (unit 1) (value "150") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/5b538487-0261-4cfe-8203-80b812ae1a1f"
-      (reference "RV1") (unit 1) (value "30k") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "RV1") (unit 1) (value "30k") (footprint "3296W-1-303LF:TRIM_3296W-1-303LF")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/0c640acc-cc29-400b-b56f-5452535d2103"
-      (reference "RV2") (unit 1) (value "30k") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "RV2") (unit 1) (value "30k") (footprint "3296W-1-303LF:TRIM_3296W-1-303LF")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/0f3db555-c5db-4878-8cfa-e2ac2ce1e1ea"
-      (reference "RV3") (unit 1) (value "30k") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "RV3") (unit 1) (value "30k") (footprint "3296W-1-303LF:TRIM_3296W-1-303LF")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/7c316eca-df07-4e02-9704-8a67829a83bf"
-      (reference "RV4") (unit 1) (value "30k") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "RV4") (unit 1) (value "30k") (footprint "3296W-1-303LF:TRIM_3296W-1-303LF")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/441d5dea-df66-47e6-929f-38caba8b034c"
-      (reference "SW1") (unit 1) (value "1101M2S3CQE2") (footprint "")
+      (reference "SW1") (unit 1) (value "1101M2S3CQE2") (footprint "1101M2S3CQE2:SW_1101M2S3CQE2")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/662ece80-43e1-481b-94b1-c923eb6486da"
-      (reference "SW2") (unit 1) (value "1101M2S3CQE2") (footprint "")
+      (reference "SW2") (unit 1) (value "1101M2S3CQE2") (footprint "1101M2S3CQE2:SW_1101M2S3CQE2")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/164802e7-af5f-435c-afa0-f47e1d1182ed"
       (reference "U1") (unit 1) (value "LM1084-ADJ") (footprint "Package_TO_SOT_SMD:TO-263-3_TabPin2")

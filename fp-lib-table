@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "karca_custom_footprints")(type "KiCad")(uri "${KIPRJMOD}/karca_custom_footprints.pretty")(options "")(descr ""))
+  (lib (name "3296W-1-303LF")(type "KiCad")(uri "${KIPRJMOD}/3296W-1-303LF")(options "")(descr ""))
 )

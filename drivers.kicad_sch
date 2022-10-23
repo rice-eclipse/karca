@@ -727,6 +727,7 @@
     )
   )
 
+
   (junction (at 35.56 135.89) (diameter 0) (color 0 0 0 0)
     (uuid 0a9658dd-99c2-4e9c-87f4-a1bd7bc6e3ab)
   )
@@ -1879,7 +1880,7 @@
     (property "Value" "Conn_01x08_Female" (id 1) (at 43.18 176.5299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 41.91 173.99 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" (id 2) (at 41.91 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 173.99 0)

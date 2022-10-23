@@ -1007,7 +1007,7 @@
     (uuid b4980eca-78e9-4773-8b1f-c19d03134ada)
     (property "Reference" "J36" (id 0) (at 105.41 55.88 0))
     (property "Value" "2540-5" (id 1) (at 105.41 58.42 0))
-    (property "Footprint" "" (id 2) (at 104.14 85.09 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" (id 2) (at 104.14 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 104.14 85.09 0)
