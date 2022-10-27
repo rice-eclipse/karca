@@ -845,22 +845,22 @@
       (reference "J36") (unit 1) (value "2540-5") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/19d4c51c-865d-4ed3-ab30-aac196ef5df9"
-      (reference "Q1") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+      (reference "Q1") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/0824c9d0-797d-4ca7-a9a2-b710f0ef6e1e"
-      (reference "Q2") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+      (reference "Q2") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/474a486c-c91a-48da-a428-55df720ca5da"
-      (reference "Q3") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+      (reference "Q3") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/9d012d39-1f69-40b5-9739-901dd5b01ef6"
-      (reference "Q4") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+      (reference "Q4") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/c156a922-aeda-4ab7-9884-0660e4fd1c5c"
-      (reference "Q5") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+      (reference "Q5") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/a83efcef-7028-4e8b-95a6-f9439a4ad741"
-      (reference "Q6") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+      (reference "Q6") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/6812bfee-32b4-4f56-980b-ef25c3f430d5"
       (reference "R1") (unit 1) (value "510") (footprint "Resistor_SMD:R_1206_3216Metric")
