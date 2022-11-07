@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1190364
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=1.12
+Released=2022-05-12 05:23:44
+Downloaded=2022-11-06 21:29:19
+3D=N

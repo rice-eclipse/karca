@@ -1,0 +1,17 @@
+.1190365 :1 ;Fixed Terminal Blocks LPTA 2,5/ 4-5,0
+"1190365"
+*STM J
+*NGS
+*PNM 1=A1 2=A2 3=A3 4=A4 5=B1 6=B2 7=B3 8=B4
+*PLB 1="A1" 2="A2" 3="A3" 4="A4" 5="B1" 6="B2" 7="B3" 8="B4"
+*MXP 8
+*DFN 1190365
+~!Mouser Part Number (651-1190365)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1190365?qs=QNEnbhJQKvbYhaie4VzA2g%3D%3D)
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (1190365)
+~!Link Datasheet (https://www.phoenixcontact.com/en-il/products/printed-circuit-board-terminal-lpta-25-4-50-1190365)
+~!Height (22.65mm)
+~!3D_Model (1190365)
+"1190365"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

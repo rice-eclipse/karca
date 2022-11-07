@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1190363'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Phoenix Contact", "1190363" (!) = "", "1190363", "Other", "651-1190363", "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1190363?qs=QNEnbhJQKvZM1o20TNh%252B9Q%3D%3D", "PCB terminal block, nominal current: 24 A, number of potentials: 2, Solder pin [P]: 3.5 mm.", "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-lpta-25-2-50-1190363", "20.28 mm"
+END_PART
+
+END.
