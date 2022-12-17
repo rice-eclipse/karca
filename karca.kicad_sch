@@ -328,15 +328,6 @@
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/fcec4fdb-0c22-4bc8-928e-af4bd2e0c3c1"
       (reference "#PWR064") (unit 1) (value "GND") (footprint "")
     )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/8c84cc08-da67-40c2-b109-2d39618c3f11"
-      (reference "#PWR065") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/6d3309fa-b7b1-46b5-bd03-d537d88be12c"
-      (reference "#PWR066") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/bd2e8af6-d7a1-49a1-aaae-1d99524b2519"
-      (reference "#PWR067") (unit 1) (value "GND") (footprint "")
-    )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/228d6227-8318-4c68-bd95-cf81b28ff0ca"
       (reference "#PWR068") (unit 1) (value "GND") (footprint "")
     )
@@ -399,15 +390,6 @@
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/94fdfd6f-6b3f-4b5d-ad33-6da0b49d5825"
       (reference "#PWR088") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/c4ca8a9e-22e8-4762-af5a-632adfc2bdb3"
-      (reference "#PWR089") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/6bcf7a82-f3c8-41e1-a7e7-4d3c3cca7a00"
-      (reference "#PWR090") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/551cd7ed-bf25-4fcd-93e1-03b46afc1321"
-      (reference "#PWR091") (unit 1) (value "GND") (footprint "")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/4eafa3fe-15d5-47a0-adb4-a13d00e2ccec"
       (reference "#PWR092") (unit 1) (value "GND") (footprint "")
@@ -727,6 +709,24 @@
     (path "/f9b56273-510a-4f1f-8845-adebb323cd86/626f5b34-3954-4792-bc40-278930b29932"
       (reference "C36") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/adb50cf1-c38a-4c29-b5bb-9a47fefe1997"
+      (reference "CON_LC1") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
+    )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/bd4f0cb1-98dc-475f-9558-0101267c4f83"
+      (reference "CON_LC2") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
+    )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/9eee96a1-c051-47ff-ac7a-ffc6f7962501"
+      (reference "CON_LC3") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
+    )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/53ad02c7-8897-4d37-85e2-ab09377b4e23"
+      (reference "CON_LC4") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
+    )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/88921c72-ee1f-4d7f-b71b-b85a45785dec"
+      (reference "CON_LC5") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
+    )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/ff82476f-f1a7-45cd-936a-a3edae8eb87b"
+      (reference "CON_LC6") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
+    )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/b872ea30-d8b7-4fc4-8624-807b55a7a5d5"
       (reference "D1") (unit 1) (value "1N5822RLG") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
     )
@@ -918,24 +918,6 @@
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/ef85e866-89a8-4727-af3b-c8f29c352042"
       (reference "J12") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/adb50cf1-c38a-4c29-b5bb-9a47fefe1997"
-      (reference "J13") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/bd4f0cb1-98dc-475f-9558-0101267c4f83"
-      (reference "J14") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/9eee96a1-c051-47ff-ac7a-ffc6f7962501"
-      (reference "J15") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/53ad02c7-8897-4d37-85e2-ab09377b4e23"
-      (reference "J16") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/88921c72-ee1f-4d7f-b71b-b85a45785dec"
-      (reference "J17") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/ff82476f-f1a7-45cd-936a-a3edae8eb87b"
-      (reference "J18") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/27894a2c-f675-4f42-b523-88d65d1b0045"
       (reference "J19") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
@@ -1298,22 +1280,22 @@
       (reference "U2") (unit 1) (value "LM1084-5.0") (footprint "Package_TO_SOT_SMD:TO-263-3_TabPin2")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/b7795153-cf62-49d4-a187-8c96ecec49dc"
-      (reference "U3") (unit 1) (value "MCP6N11T-001E") (footprint "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.80x1.65mm")
+      (reference "U3") (unit 1) (value "MCP6N11") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/94cbd9b8-7c5d-4d04-b322-8b116b2d3344"
-      (reference "U4") (unit 1) (value "MCP6N11T-001E") (footprint "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.80x1.65mm")
+      (reference "U4") (unit 1) (value "MCP6N11") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/00c00e5d-926f-4fec-8c4a-07e83b2d7e5c"
-      (reference "U5") (unit 1) (value "MCP6N11T-001E") (footprint "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.80x1.65mm")
+      (reference "U5") (unit 1) (value "MCP6N11") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/13ec0cda-2f60-453a-bccd-8668fedeba18"
-      (reference "U6") (unit 1) (value "MCP6N11T-001E") (footprint "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.80x1.65mm")
+      (reference "U6") (unit 1) (value "MCP6N11") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/c4f595c5-c74f-4237-88a0-86f0d40fa843"
-      (reference "U7") (unit 1) (value "MCP6N11T-001E") (footprint "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.80x1.65mm")
+      (reference "U7") (unit 1) (value "MCP6N11") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/4bc956b9-c931-410d-97bf-b60a8ebf33fd"
-      (reference "U8") (unit 1) (value "MCP6N11T-001E") (footprint "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.80x1.65mm")
+      (reference "U8") (unit 1) (value "MCP6N11") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/10073d94-42f2-45b9-b4e1-dc6e4b22a837"
       (reference "U9") (unit 1) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
