@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "ARCA 2.0")
+    (title "kARCA")
     (rev "1")
     (company "Rice Eclipse")
   )
@@ -602,112 +602,112 @@
       (reference "#PWR0154") (unit 1) (value "GND") (footprint "")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/45146304-c0b3-4424-ad32-73e617c71926"
-      (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/ea547bd2-fe8f-489c-9bcf-c7b8afe95f81"
-      (reference "C2") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C2") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/36f044c9-fb7c-4c71-ae3b-fb0fd791c0b7"
-      (reference "C3") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C3") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/f099bad6-c445-444e-9606-1c36ba148c17"
-      (reference "C4") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C4") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/a52f0488-3738-4282-ae93-29feefbfc751"
-      (reference "C5") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C5") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/f3ba9e20-2c8a-43ad-9816-6a9d80e99039"
-      (reference "C6") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C6") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/00bcc849-0e15-45af-b9aa-f67543c6e38f"
-      (reference "C7") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C7") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/09cc012b-173a-4a55-97f1-175c6199162d"
-      (reference "C8") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C8") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/e8d5a0b5-fc20-40e7-ba66-93a9a2d879ee"
-      (reference "C9") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C9") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/d671173d-880d-4912-9870-b36fbf2c469b"
-      (reference "C10") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C10") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/719957ea-5d75-4d48-891f-7daa98ddbe6f"
-      (reference "C11") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C11") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/e3bb63e7-897e-4837-ad02-16f794dbe286"
-      (reference "C12") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C12") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/76bfc2ee-a396-40e5-8049-f4d6bda79204"
-      (reference "C13") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C13") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/21b6f46c-61f9-4e29-ad8b-255a548ecc71"
-      (reference "C14") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C14") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/a2707874-dc62-4607-a077-f03244762d64"
-      (reference "C15") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C15") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/41700e1e-46e2-4544-b128-ae71c66686a4"
-      (reference "C16") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C16") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/b8312208-0cce-4a7f-b6d3-d90b6b0d2f39"
-      (reference "C17") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C17") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/6c2395e6-88d4-4af8-9c16-2e5a41129e2b"
-      (reference "C18") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C18") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/fc3a7c40-2d1b-41e3-90c9-61add53ef4bf"
-      (reference "C19") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C19") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/829c93c1-63c6-4b05-a6b0-83bafe68dda9"
-      (reference "C20") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C20") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/49b75726-9720-4370-9982-d49300873535"
-      (reference "C21") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C21") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/24b6b07e-0727-45fc-96c6-314b69a91a2a"
-      (reference "C22") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C22") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/4749e9aa-3fa0-4c92-ba19-698a0f633dcd"
-      (reference "C23") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C23") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/5b8b49fc-5ec8-4325-8a9b-5f4614d1e91e"
-      (reference "C24") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C24") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/e0a7f26e-aaac-4111-9a30-3a6c97d3a165"
-      (reference "C25") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C25") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/29ae406c-3f1d-419a-82d1-250ccb210fdb"
-      (reference "C26") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C26") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/a1d8001e-6df4-496c-99eb-88a3c5854874"
-      (reference "C27") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C27") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/0773e8e7-f8f6-4566-b0d4-4c148cb2d51f"
-      (reference "C28") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C28") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/ca886939-da6e-403e-8d6a-e1d355a61a02"
-      (reference "C29") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C29") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/a3c457b4-4089-4f12-9e85-58c5771674ba"
-      (reference "C30") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C30") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/59d10e6f-2863-4d9c-952a-74f060036e26"
-      (reference "C31") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C31") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/c86ffe22-ff56-4c85-9124-bd3523ab93f6"
-      (reference "C32") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C32") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/a4f2cc72-8bc4-4210-a3cf-782dd12d7e7d"
-      (reference "C33") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C33") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/f9b56273-510a-4f1f-8845-adebb323cd86/2985e730-b6ab-4699-9658-b3d5b3270645"
-      (reference "C34") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C34") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/f9b56273-510a-4f1f-8845-adebb323cd86/3426e914-215c-4b2a-8f62-a22e327ec572"
-      (reference "C35") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C35") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/f9b56273-510a-4f1f-8845-adebb323cd86/626f5b34-3954-4792-bc40-278930b29932"
-      (reference "C36") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C36") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/b872ea30-d8b7-4fc4-8624-807b55a7a5d5"
       (reference "D1") (unit 1) (value "1N5822RLG") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
@@ -878,7 +878,7 @@
       (reference "J11") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/ef85e866-89a8-4727-af3b-c8f29c352042"
-      (reference "J12") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+      (reference "J12") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/adb50cf1-c38a-4c29-b5bb-9a47fefe1997"
       (reference "J13") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
@@ -944,22 +944,22 @@
       (reference "J33") (unit 1) (value "2540-5") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/19d4c51c-865d-4ed3-ab30-aac196ef5df9"
-      (reference "Q1") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
+      (reference "Q1") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/474a486c-c91a-48da-a428-55df720ca5da"
-      (reference "Q2") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
+      (reference "Q2") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/c156a922-aeda-4ab7-9884-0660e4fd1c5c"
-      (reference "Q3") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
+      (reference "Q3") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/9d012d39-1f69-40b5-9739-901dd5b01ef6"
-      (reference "Q4") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
+      (reference "Q4") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/a83efcef-7028-4e8b-95a6-f9439a4ad741"
-      (reference "Q5") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
+      (reference "Q5") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/0824c9d0-797d-4ca7-a9a2-b710f0ef6e1e"
-      (reference "Q6") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
+      (reference "Q6") (unit 1) (value "FQP30N06") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/6812bfee-32b4-4f56-980b-ef25c3f430d5"
       (reference "R1") (unit 1) (value "510") (footprint "Resistor_SMD:R_1206_3216Metric")
