@@ -1,6 +1,8 @@
 (fp_lib_table
   (lib (name "karca_custom_footprints")(type "KiCad")(uri "${KIPRJMOD}/karca_custom_footprints.pretty")(options "")(descr ""))
-  (lib (name "3296W-1-303LF")(type "KiCad")(uri "${KIPRJMOD}/3296W-1-303LF")(options "")(descr ""))
-  (lib (name "1190364")(type "KiCad")(uri "${KIPRJMOD}/1190364/1190364/KiCad")(options "")(descr ""))
-  (lib (name "1190365")(type "KiCad")(uri "${KIPRJMOD}/1190365/1190365/KiCad")(options "")(descr ""))
+  (lib (name "1190364")(type "KiCad")(uri "${KIPRJMOD}/1190364")(options "")(descr ""))
+  (lib (name "1190365")(type "KiCad")(uri "${KIPRJMOD}/1190365")(options "")(descr ""))
+  (lib (name "1190363")(type "KiCad")(uri "${KIPRJMOD}/1190363")(options "")(descr ""))
+  (lib (name "178.6165")(type "KiCad")(uri "${KIPRJMOD}/178.6165.0002")(options "")(descr ""))
+  (lib (name "S101031MS02Q")(type "KiCad")(uri "${KIPRJMOD}/S101031MS02Q")(options "")(descr ""))
 )
