@@ -964,6 +964,9 @@
     (path "/1d2f7b4c-e83f-4cee-b3c6-61e1093bdc7e/b4980eca-78e9-4773-8b1f-c19d03134ada"
       (reference "J33") (unit 1) (value "2540-5") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal")
     )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/e29e34f4-47bd-45a4-8581-feeafb9a26a9"
+      (reference "J?") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/88f0ac32-0ebf-4a77-b2c1-5c709f69afd5"
       (reference "LED_5V1") (unit 1) (value "RED") (footprint "LED_SMD:LED_1206_3216Metric")
     )
