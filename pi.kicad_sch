@@ -621,6 +621,7 @@
     )
   )
 
+
   (junction (at 76.2 92.71) (diameter 0) (color 0 0 0 0)
     (uuid 40038253-7db3-4647-b3de-a9a8e099e881)
   )
@@ -747,11 +748,6 @@
   (wire (pts (xy 76.2 92.71) (xy 76.2 97.79))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f11c80bf-45d2-4533-8498-4784c786c811)
-  )
-
-  (label "HBT" (at 97.79 97.79 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 3ecb5d53-0b14-4cea-8de2-d5a0011eaea7)
   )
 
   (global_label "ADC3_CS" (shape output) (at 111.76 92.71 0) (fields_autoplaced)
