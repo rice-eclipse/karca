@@ -357,7 +357,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
+        "clearance": 0.508,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -392,7 +392,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 1.27,
+        "clearance": 0.254,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -400,10 +400,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "+12V",
-        "nets": [],
+        "nets": [
+          "+12V",
+          "/regulators/12V_CON",
+          "/regulators/12V_PRERECT",
+          "/regulators/FAN_PWR"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.794,
+        "track_width": 2.54,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -452,7 +457,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.54,
+        "track_width": 1.27,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
