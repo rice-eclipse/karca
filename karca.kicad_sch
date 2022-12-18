@@ -709,6 +709,33 @@
     (path "/f9b56273-510a-4f1f-8845-adebb323cd86/626f5b34-3954-4792-bc40-278930b29932"
       (reference "C36") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
+    (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/704e7fb5-47bb-47f0-b69d-1f1b4b81eb8f"
+      (reference "CON_BAT1") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/d5c020f0-4e01-438e-8710-c921532da1cf"
+      (reference "CON_DRV1") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/15301a69-6ba1-4205-8bf5-53a851d7ca04"
+      (reference "CON_DRV2") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/7325bc13-bca8-46ee-b0b5-e8de0a8a09c1"
+      (reference "CON_DRV3") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/f035d49f-08f5-4e89-8833-484df59b528d"
+      (reference "CON_DRV4") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/e7ef9230-c2c7-4f1e-b850-85fefecbd3cd"
+      (reference "CON_DRV5") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/11e55c08-a518-4ccd-9412-1961e8793b12"
+      (reference "CON_DRV6") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/0604bb6d-2dba-4f89-bfb3-28b50b2438ee"
+      (reference "CON_FAN1") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/74a779af-436d-424c-ac16-c943c8f878a9"
+      (reference "CON_IGN_12") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/adb50cf1-c38a-4c29-b5bb-9a47fefe1997"
       (reference "CON_LC1") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
     )
@@ -727,62 +754,89 @@
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/ff82476f-f1a7-45cd-936a-a3edae8eb87b"
       (reference "CON_LC6") (unit 1) (value "Screw_Terminal_01x04") (footprint "1190365:1190365")
     )
+    (path "/d974749e-215f-46b5-a007-0416cfb921b4/5632382c-64c2-409f-93d7-b068b358ffe6"
+      (reference "CON_PT1") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/d974749e-215f-46b5-a007-0416cfb921b4/6205a568-b492-4777-86ee-64cf9af8d869"
+      (reference "CON_PT2") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/d974749e-215f-46b5-a007-0416cfb921b4/29d1e979-5bee-4f93-95c9-b7e1c87254da"
+      (reference "CON_PT3") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/d974749e-215f-46b5-a007-0416cfb921b4/85ad3ef4-184d-4429-b4db-c1a777ef0065"
+      (reference "CON_PT4") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/2a400594-53fd-448c-bc11-08fb47bebf04"
+      (reference "CON_ROUTER1") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
+    )
+    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/93d9ca6e-1684-4fb2-af02-af1860046dc5"
+      (reference "CON_TC1") (unit 1) (value "Screw_Terminal_01x03") (footprint "1190364:1190364")
+    )
+    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/0575ac44-baa1-492f-bc53-898d6e3b7dfa"
+      (reference "CON_TC2") (unit 1) (value "Screw_Terminal_01x03") (footprint "1190364:1190364")
+    )
+    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/87fa6d6e-629a-449a-a819-166cb04005b5"
+      (reference "CON_TC3") (unit 1) (value "Screw_Terminal_01x03") (footprint "1190364:1190364")
+    )
+    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/cd177998-23e1-44d0-b558-181dbf54fe02"
+      (reference "CON_TC4") (unit 1) (value "Screw_Terminal_01x03") (footprint "1190364:1190364")
+    )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/b872ea30-d8b7-4fc4-8624-807b55a7a5d5"
       (reference "D1") (unit 1) (value "1N5822RLG") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/a1e1d281-0437-41dc-83cf-d93f3be6e087"
-      (reference "D2") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D2") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/5814e923-4dd7-4448-ba84-1b7950cb2780"
-      (reference "D3") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D3") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/9586979e-ecc1-4b13-a9e0-0ed272806d23"
-      (reference "D4") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D4") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/990884ae-5caf-4867-9665-0542719fa832"
-      (reference "D5") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D5") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/d009c71c-9a6d-4f16-9a7e-c696577b104b"
-      (reference "D6") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D6") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/cb7ab868-929d-4e76-9604-66b3cc0b77e9"
-      (reference "D7") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D7") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/d54047c4-81e5-4fdf-bd10-f532f7843447"
-      (reference "D8") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D8") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/5be75c7d-aeaf-4651-903f-4fa3c98c0d90/ff76f485-9e71-4d38-90ba-0cca04814979"
-      (reference "D9") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D9") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/e314e8a9-9ba0-4ed0-9cf5-0a800763bade"
-      (reference "D10") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D10") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/23b0f571-c91d-46cd-a128-514f91b32a4f"
-      (reference "D11") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D11") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/5a1bcea7-94c0-4634-9389-024f4a14880f"
-      (reference "D12") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D12") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/e0e86777-b21f-4745-b012-221abbc6b521"
-      (reference "D13") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D13") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/e5dd8cfb-2908-468d-9841-687841192656"
-      (reference "D14") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D14") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/3c46001e-0a14-4ee9-9567-46f31d26b273"
-      (reference "D15") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D15") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/3f81362b-b120-4619-af35-145bc39b4e41"
-      (reference "D16") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D16") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/29f3a13c-7de0-4aed-8ce4-ffc0898d93db"
-      (reference "D22") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D22") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/58b2c3cb-aa30-4615-94bd-7fd71a2fb993"
-      (reference "D23") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D23") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/dd3dc0b5-e341-4078-ba87-751110e35c5d"
-      (reference "D24") (unit 1) (value "SS54") (footprint "karca_custom_footprints:DO-214AC")
+      (reference "D24") (unit 1) (value "DO-214AC") (footprint "karca_custom_footprints:DO-214AC")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/5f43cfaf-a2f9-41aa-be14-840f57e594fd"
       (reference "DRV_STAT_1") (unit 1) (value "YLW") (footprint "LED_SMD:LED_1206_3216Metric")
@@ -883,41 +937,14 @@
     (path "/1d2f7b4c-e83f-4cee-b3c6-61e1093bdc7e/e0171af4-7c72-461b-bde8-71a4705d6a1e"
       (reference "HBT1") (unit 1) (value "BLU") (footprint "LED_SMD:LED_1206_3216Metric")
     )
-    (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/704e7fb5-47bb-47f0-b69d-1f1b4b81eb8f"
-      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
-    (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/0604bb6d-2dba-4f89-bfb3-28b50b2438ee"
-      (reference "J2") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
-    (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/2a400594-53fd-448c-bc11-08fb47bebf04"
-      (reference "J3") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
-    (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/74a779af-436d-424c-ac16-c943c8f878a9"
-      (reference "J4") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/7b2b472a-1607-4739-aa3e-7e188e6f5329"
       (reference "J5") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
-    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/d5c020f0-4e01-438e-8710-c921532da1cf"
-      (reference "J6") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
-    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/15301a69-6ba1-4205-8bf5-53a851d7ca04"
-      (reference "J7") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
-    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/7325bc13-bca8-46ee-b0b5-e8de0a8a09c1"
-      (reference "J8") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
-    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/f035d49f-08f5-4e89-8833-484df59b528d"
-      (reference "J9") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
-    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/e7ef9230-c2c7-4f1e-b850-85fefecbd3cd"
-      (reference "J10") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
-    (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/11e55c08-a518-4ccd-9412-1961e8793b12"
-      (reference "J11") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/ef85e866-89a8-4727-af3b-c8f29c352042"
       (reference "J12") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
+    )
+    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/e29e34f4-47bd-45a4-8581-feeafb9a26a9"
+      (reference "J13") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/27894a2c-f675-4f42-b523-88d65d1b0045"
       (reference "J19") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
@@ -925,32 +952,8 @@
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/a1769822-6722-4305-b3c4-ec0cd979abe0"
       (reference "J20") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical")
     )
-    (path "/d974749e-215f-46b5-a007-0416cfb921b4/6205a568-b492-4777-86ee-64cf9af8d869"
-      (reference "J21") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
-    (path "/d974749e-215f-46b5-a007-0416cfb921b4/5632382c-64c2-409f-93d7-b068b358ffe6"
-      (reference "J22") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
-    (path "/d974749e-215f-46b5-a007-0416cfb921b4/29d1e979-5bee-4f93-95c9-b7e1c87254da"
-      (reference "J23") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
-    (path "/d974749e-215f-46b5-a007-0416cfb921b4/85ad3ef4-184d-4429-b4db-c1a777ef0065"
-      (reference "J24") (unit 1) (value "Screw_Terminal_01x02") (footprint "1190363:1190363")
-    )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/0a025e76-ab04-4192-9ab1-e8f056e2aa3f"
       (reference "J25") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
-    )
-    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/93d9ca6e-1684-4fb2-af02-af1860046dc5"
-      (reference "J26") (unit 1) (value "Screw_Terminal_01x03") (footprint "1190364:1190364")
-    )
-    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/0575ac44-baa1-492f-bc53-898d6e3b7dfa"
-      (reference "J27") (unit 1) (value "Screw_Terminal_01x03") (footprint "1190364:1190364")
-    )
-    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/87fa6d6e-629a-449a-a819-166cb04005b5"
-      (reference "J28") (unit 1) (value "Screw_Terminal_01x03") (footprint "1190364:1190364")
-    )
-    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/cd177998-23e1-44d0-b558-181dbf54fe02"
-      (reference "J29") (unit 1) (value "Screw_Terminal_01x03") (footprint "1190364:1190364")
     )
     (path "/f9b56273-510a-4f1f-8845-adebb323cd86/30c42839-e8ac-4d89-9da8-f89a945b400d"
       (reference "J30") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
@@ -963,9 +966,6 @@
     )
     (path "/1d2f7b4c-e83f-4cee-b3c6-61e1093bdc7e/b4980eca-78e9-4773-8b1f-c19d03134ada"
       (reference "J33") (unit 1) (value "2540-5") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/e29e34f4-47bd-45a4-8581-feeafb9a26a9"
-      (reference "J?") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/88f0ac32-0ebf-4a77-b2c1-5c709f69afd5"
       (reference "LED_5V1") (unit 1) (value "RED") (footprint "LED_SMD:LED_1206_3216Metric")
