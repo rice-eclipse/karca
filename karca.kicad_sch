@@ -874,48 +874,6 @@
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/98cb0bbc-8ace-498c-b0ef-3fcb1c13b065"
       (reference "F6") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
     )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/686e30d8-5c60-4bc4-a28e-6eb1c9f2947b"
-      (reference "F7") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/d4ff6852-658e-4dcc-8654-2bdfe46b3772"
-      (reference "F8") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/99a4bd73-abbb-4937-b459-191703867a53"
-      (reference "F9") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/e403b98b-360f-438c-af11-4038be46b5d1"
-      (reference "F10") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/a4e81a00-310b-43e4-a6c3-32b751ebec64"
-      (reference "F11") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/300b67ab-e218-4a4c-9958-6ca73e785b19"
-      (reference "F12") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/d974749e-215f-46b5-a007-0416cfb921b4/7cea022b-3f22-44fb-b026-de15db11295f"
-      (reference "F13") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/d974749e-215f-46b5-a007-0416cfb921b4/3615da38-bfd2-4395-af1f-7aca7b176668"
-      (reference "F14") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/d974749e-215f-46b5-a007-0416cfb921b4/98f03e41-a4ac-4168-b2a7-75bec38978d1"
-      (reference "F15") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/d974749e-215f-46b5-a007-0416cfb921b4/dc05aa54-6128-4d79-8be2-a57d8eec664b"
-      (reference "F16") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/96aafc3d-a4e8-433c-9f02-47f4b4516a0d"
-      (reference "F17") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/dee74a20-e700-463c-a371-5f8204f75cc8"
-      (reference "F18") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/141c9777-1097-4024-b410-cbae12e76c67"
-      (reference "F19") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
-    (path "/2ecca342-0668-4e36-84dc-b8a6ec02bba5/6897a6a7-63ce-4a48-bdbd-44f855e8b84e"
-      (reference "F20") (unit 1) (value "178.6165") (footprint "178.6165:17861650002")
-    )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/ac90302c-f630-41e4-95e5-855951239cfa"
       (reference "FS_STAT_1") (unit 1) (value "BLU") (footprint "LED_SMD:LED_1206_3216Metric")
     )
