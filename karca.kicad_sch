@@ -896,22 +896,22 @@
       (reference "HBT1") (unit 1) (value "BLU") (footprint "LED_SMD:LED_1206_3216Metric")
     )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/7b2b472a-1607-4739-aa3e-7e188e6f5329"
-      (reference "J5") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/ef85e866-89a8-4727-af3b-c8f29c352042"
       (reference "J12") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/e29e34f4-47bd-45a4-8581-feeafb9a26a9"
-      (reference "J13") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J13") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/27894a2c-f675-4f42-b523-88d65d1b0045"
-      (reference "J19") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
+      (reference "J19") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/a1769822-6722-4305-b3c4-ec0cd979abe0"
       (reference "J20") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/0a025e76-ab04-4192-9ab1-e8f056e2aa3f"
-      (reference "J25") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "J25") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/f9b56273-510a-4f1f-8845-adebb323cd86/30c42839-e8ac-4d89-9da8-f89a945b400d"
       (reference "J30") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
