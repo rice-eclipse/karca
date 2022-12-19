@@ -29,8 +29,8 @@
   (pad "3" thru_hole circle (at 2.5 -4.1) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask) (tstamp c5ea0601-6f92-467e-891c-c92b507c47f1))
   (pad "4" thru_hole circle (at 7.5 4.1) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask) (tstamp 3f2e1725-3a49-43bc-a0ed-58994c8bd0da))
   (pad "4" thru_hole circle (at 7.5 -4.1) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask) (tstamp 81a85623-4395-4200-aa9b-46bc62f7bc6b))
-  (model "1190365.stp"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/1190365/pxc_1190365_02_LPTA-2-5-4-5-0_3D.stp"
+    (offset (xyz -11.43 -9.271 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

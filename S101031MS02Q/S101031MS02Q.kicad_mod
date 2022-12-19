@@ -38,9 +38,9 @@
   (pad "2" thru_hole circle (at -3.325 0) (size 2.775 2.775) (drill 1.85) (layers *.Cu *.Mask) (tstamp 51bc41eb-772d-46b6-8fbd-de312eb942b6))
   (pad "3" thru_hole circle (at 4.295 -6.35) (size 2.775 2.775) (drill 1.85) (layers *.Cu *.Mask) (tstamp 67a69cb4-e240-4e0f-89da-cbb6ca688cd0))
   (pad "3" thru_hole circle (at -3.325 -6.35) (size 2.775 2.775) (drill 1.85) (layers *.Cu *.Mask) (tstamp 89dd0b97-7444-4d89-a101-3500ef5ede63))
-  (model "S101031MS02Q.stp"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/1101M2S3CQE2/S101031MS02Q.stp"
+    (offset (xyz 0 0 2.54))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 -90))
   )
 )
