@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 1190363
-D PCB terminal block, nominal current: 24 A, number of potentials: 2, Solder pin [P]: 3.5 mm.
-K
-F https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-lpta-25-2-50-1190363
-$ENDCMP
-#
-#End Doc Library
