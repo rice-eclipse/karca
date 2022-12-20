@@ -538,6 +538,15 @@
     (path "/7c851058-723c-46a6-8f71-0b02d6bf3ba0/f5d3a197-abe1-4a00-8b12-fbbe1b9df38f"
       (reference "#PWR0173") (unit 1) (value "+12V") (footprint "")
     )
+    (path "/f9b56273-510a-4f1f-8845-adebb323cd86/7efd9e45-e54b-4c84-9063-4b011c8ebbc5"
+      (reference "ADC1") (unit 1) (value "MCP3208-CI/SL") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+    )
+    (path "/f9b56273-510a-4f1f-8845-adebb323cd86/2c6d2121-2195-4111-b66e-168b58183ea1"
+      (reference "ADC2") (unit 1) (value "MCP3208-CI/SL") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+    )
+    (path "/f9b56273-510a-4f1f-8845-adebb323cd86/a015bacd-139c-4a57-a8b6-29366d15ac3d"
+      (reference "ADC3") (unit 1) (value "MCP3208-CI/SL") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+    )
     (path "/20b02270-678b-48e7-88d9-1468bb2ccccb/45146304-c0b3-4424-ad32-73e617c71926"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
@@ -1137,15 +1146,6 @@
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/12a01906-be17-4cb0-a25b-8bace301b830"
       (reference "U11") (unit 5) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
-    )
-    (path "/f9b56273-510a-4f1f-8845-adebb323cd86/7efd9e45-e54b-4c84-9063-4b011c8ebbc5"
-      (reference "U12") (unit 1) (value "MCP3208-CI/SL") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
-    )
-    (path "/f9b56273-510a-4f1f-8845-adebb323cd86/2c6d2121-2195-4111-b66e-168b58183ea1"
-      (reference "U13") (unit 1) (value "MCP3208-CI/SL") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
-    )
-    (path "/f9b56273-510a-4f1f-8845-adebb323cd86/a015bacd-139c-4a57-a8b6-29366d15ac3d"
-      (reference "U14") (unit 1) (value "MCP3208-CI/SL") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
   )
 )

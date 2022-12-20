@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.508
         }
       },
@@ -137,11 +137,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|889000|1079500|4e79f8f5-b470-4e90-9702-2e7c8489d2a4|11c7e5c7-6156-42a6-b32f-62a4d5ecc44e",
-      "pin_to_pin|889000|1079500|4e79f8f5-b470-4e90-9702-2e7c8489d2a4|f12f9f25-8c62-4696-b0ec-e5d6b97394ba",
-      "pin_to_pin|889000|1676400|11c7e5c7-6156-42a6-b32f-62a4d5ecc44e|f12f9f25-8c62-4696-b0ec-e5d6b97394ba"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -404,7 +400,7 @@
           "+12V",
           "/regulators/12V_CON",
           "/regulators/12V_PRERECT",
-          "/regulators/FAN_PWR"
+          "/regulators/FAN_POW"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
