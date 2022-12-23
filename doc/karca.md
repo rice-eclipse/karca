@@ -20,6 +20,13 @@ Inside of the `kARCA` controller, a Raspberry Pi runs the controller software, `
 receives messages from `slonkboard` and executes them, while also logging data and transmitting it
 to `slonkboard`.
 
+`kARCA` is intended as a replacement to an older control board, called the "Mk1.1 engine
+controller."
+The main reason for this replacement is because it's showing its age: the Mk1.1 controller was
+designed for smaller valves and with fewer capabilities than its replacement.
+In addition, a fire caused irreparable damage to one of the pressure transducer amplifiers on the
+controller hardware.
+
 ## Requirements
 
 kARCA has a few client needs that it must support for Rice Eclipse's Titan and Proxima rocket
@@ -36,7 +43,28 @@ It must:
 
 ## Design
 
+### Power regulation
+
+![Linear dropout regulators.](doc/img/schematics/karca-regulators.svg)
+
+### Data collection
+
+#### Load cells
+
+![Load cell instrumentation amps.](doc/img/schematics/karca-Load Cell Inamps.svg)
+
+### Valve actuation
+
+![Valve drivers and ignition driver.](doc/img/schematics/karca-Drivers.svg)
+
+### Ignition system
+
+As far as the `kARCA` PCB is concerned, the ignition system is just another valve.
+Externally, though, the ignition system is a two-step sequence of relays.
+
 ## Pinouts
+
+This is intended as a reference for programmers working on `slonk`,
 
 ### Raspberry Pi
 
@@ -83,9 +111,7 @@ It must:
 |     39 | GND                   |       - | GND              |
 |     40 | GPIO                  |      21 | -                |
 
-### ADCs
-
-#### ADC1 - Load cells
+### ADC1 - Load cells
 
 | Channel | Use    |
 | ------- | ------ |
@@ -98,7 +124,7 @@ It must:
 | 6       | unused |
 | 7       | unused |
 
-#### ADC2 - Pressure transducers
+### ADC2 - Pressure transducers
 
 | Channel | Use    |
 | ------- | ------ |
@@ -111,7 +137,7 @@ It must:
 | 6       | unused |
 | 7       | unused |
 
-#### ADC3 - Thermocouples
+### ADC3 - Thermocouples
 
 | Channel | Use    |
 | ------- | ------ |
