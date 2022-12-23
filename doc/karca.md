@@ -45,17 +45,17 @@ It must:
 
 ### Power regulation
 
-![Linear dropout regulators.](doc/img/schematics/karca-regulators.svg)
+![Linear dropout regulators.](img/schematics/karca-regulators.svg)
 
 ### Data collection
 
 #### Load cells
 
-![Load cell instrumentation amps.](doc/img/schematics/karca-Load Cell Inamps.svg)
+![Load cell instrumentation amps.](img/schematics/karca-Load Cell Inamps.svg)
 
 ### Valve actuation
 
-![Valve drivers and ignition driver.](doc/img/schematics/karca-Drivers.svg)
+![Valve drivers and ignition driver.](img/schematics/karca-Drivers.svg)
 
 ### Ignition system
 
