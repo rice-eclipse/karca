@@ -18,3 +18,10 @@ It connects to a Raspberry Pi running our custom controller software,
 ## Further documentation
 
 A full overview of the design of kARCA is available in [docs/karca.md](docs/karca.md).
+
+## License
+
+This design is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license
+(CC BY-SA 4.0).
+
+For more information, refer to [LICENSE.md](LICENSE.md).
