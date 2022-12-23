@@ -51,7 +51,28 @@ It must:
 
 #### Load cells
 
-![Load cell instrumentation amps.](img/schematics/karca-Load Cell Inamps.svg)
+![Load cell instrumentation amps.](img/schematics/karca-Load%20Cell%20Inamps.svg)
+
+![Load cell anti-aliasing filters.](img/schematics/karca-Load%20Cell%20Anti-Aliasing.svg)
+
+#### Pressure transducers
+
+#### Thermocouples
+
+![Thermocouple schematics.](img/schematics/karca-Thermocouples.svg)
+
+![Adafruit AD8495 amplifier.](img/adafruit%201778.jpg)
+
+We use an Adafruit AD8495 (part number 1778) amplifier breakout board, which gives a voltage between
+0 and 5V as an affine function of the measured thermocouple temperature.
+As a result, no amplification is needed and we can simply run the result directly to the ADC.
+This makes the thermocouple data acquisition the easiest part of the design.
+On the board end, only 3 connections are needed: positive voltage source, ground, and an analog
+input.
+
+However, the breakout board used only supports K-type thermocouples.
+If, in the future, we decide to use other thermocouples, we may need to consider other avenues of
+approach.
 
 ### Valve actuation
 
