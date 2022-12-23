@@ -55,7 +55,63 @@ It must:
 
 ![Load cell anti-aliasing filters.](img/schematics/karca-Load%20Cell%20Anti-Aliasing.svg)
 
+A load cell is a linear device used to measure force.
+Power is supplied to the load cell through a positive and negative terminal, and then the load cell
+returns a differential output.
+The differential voltage $V_{\mathit{dm}}$ grows linearly with the force on the load cell.
+If the voltage given to the load cell is $V_{\mathit{DD}}$, the output voltage $V_{\mathit{dm}}$ is
+linearly proportional to the input voltage and the load $F$ via the constants $r$ and $FS$.
+
+$$
+V_{\mathit{dm}} = \frac{r}{\mathit{FS}} V_{\mathit{DD}} F
+$$
+
+$\mathit{FS}$ is the full-scale force of the load cell, and $r$ is the mV/V rating of the load cell.
+Typically, $r$ is very small, so a high amount of amplification is needed to get an ADC-readable
+signal.
+Additionally, since $V_{\mathit{dm}}$ is a differential-mode signal, we must use an instrumentation
+amplifier to convert the differential voltage to an absolute voltage.
+
+On `kARCA`, there are two amplification stages for each load cell channel.
+The first stage is an instrumentation amplifier, which amplifies the voltage measured and also
+shifts the signal to a differential-mode value.
+The second stage is an anti-aliasing filter, which low-passes the analog signal from the
+instrumentation amplifier and also amplifies it further.
+
+The total gain in the load cell amplifier is the product of the gains of the two stages.
+The instrumentation amplifier has a gain of
+$1 + \frac{20 \text{k} \Omega}{200 \Omega} = 101$, while the anti-aliasing filter has a
+gain of $1 + \frac{15 \text{k} \Omega}{10 \text{k} \Omega} = 2.5$, yielding a final gain of 252.5.
+
+The
+[load cell for the Titan rocket motor](https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/test-and-measurement-products/load-cells/low-profile/model-41-series/documents/sps-siot-t-m-model-41-precision-load-cell-product-sheet-008609-3-en-ciid-149301.pdf?download=false)
+has a scale of 3mV/V and a full-scale force of 3000, yielding an output voltage equal to the load
+$F$ times $1.2625 \frac{\text{mV}}{\text{lb f}}$.
+This corresponds to a full-scale range of 3960 lb f.
+
+At extremely high loads, the load cell amplifier could ouput voltages greater than 5 V to the ADC.
+This would likely damage the ADC, so we included Schottky diodes to clamp the voltage below 5.5 V.
+
 #### Pressure transducers
+
+![Pressure transducer anti-aliasing and amplifier.](img/schematics/karca-PT%20Amplification.svg)
+
+Our pressure transducers are 4-20 mA devices.
+This means that when supplied with a voltage greater than 8 V, the pressure transducers will pull
+a current as an affine transform of the pressure (4 mA for 0 psi g, and 20 mA for 1000 psi g).
+
+To convert the current to a voltage, we place the pressure transducer in series with a 22 $\Omega$
+resistor, yielding an input voltage between 0.088 and 0.44 V.
+Since the supply voltage is 10 V, the voltage given to the pressure transducer will never be below
+9.66 V, which leaves plenty of headroom past the minimum 8 V requirement.
+
+We then amplify the input voltage by a gain of 10.22, yielding a minimum output voltage of 0.898 V
+and a maximum of 4.5 V.
+Although we aren't using the full scale, it's "good enough" for our needs, giving us a resolution of
+0.34 psi.
+
+Since the pressure transducer anti-aliasing amplifier is supplied by 10 V, we also include a set of
+Schottky diodes to prevent the amplifier from sending too high of a voltage to the ADC.
 
 #### Thermocouples
 
@@ -63,8 +119,9 @@ It must:
 
 ![Adafruit AD8495 amplifier.](img/adafruit%201778.jpg)
 
-We use an Adafruit AD8495 (part number 1778) amplifier breakout board, which gives a voltage between
-0 and 5V as an affine function of the measured thermocouple temperature.
+We use an [Adafruit AD8495](https://www.adafruit.com/product/1778) (part number 1778) amplifier
+breakout board, which gives a voltage between 0 and 5V as an affine function of the measured
+thermocouple temperature.
 As a result, no amplification is needed and we can simply run the result directly to the ADC.
 This makes the thermocouple data acquisition the easiest part of the design.
 On the board end, only 3 connections are needed: positive voltage source, ground, and an analog
