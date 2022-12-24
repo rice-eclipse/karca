@@ -5,6 +5,8 @@ edit the design of kARCA or better understand it.
 
 It is also intended to be a comprehensive spec for working with the board.
 
+![3D render of kARCA PCB.](img/karca-3d.png)
+
 ## Project Motivation
 
 Rice Eclipse is a student-run organization which designs, builds, and tests its own rocket motors.
