@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.0,
+          "height": 10.8,
+          "width": 9.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -332,7 +332,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -546,11 +546,7 @@
     ],
     [
       "65b2f578-7f47-4e10-b498-8cc5c2de5ceb",
-      "Load Cell Inamps"
-    ],
-    [
-      "5be75c7d-aeaf-4651-903f-4fa3c98c0d90",
-      "Load Cell Anti-Aliasing"
+      "Load Cells"
     ],
     [
       "d974749e-215f-46b5-a007-0416cfb921b4",
@@ -559,10 +555,6 @@
     [
       "2ecca342-0668-4e36-84dc-b8a6ec02bba5",
       "Thermocouples"
-    ],
-    [
-      "f9b56273-510a-4f1f-8845-adebb323cd86",
-      "ADCs"
     ],
     [
       "1d2f7b4c-e83f-4cee-b3c6-61e1093bdc7e",
