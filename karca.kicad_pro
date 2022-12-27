@@ -370,7 +370,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
+        "clearance": 0.508,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -378,10 +378,12 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "+10V",
-        "nets": [],
+        "nets": [
+          "+10V"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.508,
         "via_diameter": 1.016,
         "via_drill": 0.508,
         "wire_width": 6.0
@@ -411,7 +413,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
+        "clearance": 0.508,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -419,10 +421,12 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "+5V",
-        "nets": [],
+        "nets": [
+          "+5V"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.508,
         "via_diameter": 1.016,
         "via_drill": 0.508,
         "wire_width": 6.0
@@ -437,20 +441,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DRIVER",
-        "nets": [
-          "/Drivers/DRV_NEG_1",
-          "/Drivers/DRV_NEG_2",
-          "/Drivers/DRV_NEG_3",
-          "/Drivers/DRV_NEG_4",
-          "/Drivers/DRV_NEG_5",
-          "/Drivers/DRV_NEG_6",
-          "/Drivers/DRV_POS_1",
-          "/Drivers/DRV_POS_2",
-          "/Drivers/DRV_POS_3",
-          "/Drivers/DRV_POS_4",
-          "/Drivers/DRV_POS_5",
-          "/Drivers/DRV_POS_6"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.27,
@@ -468,10 +459,12 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "nets": [],
+        "nets": [
+          "GND"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.508,
         "via_diameter": 1.016,
         "via_drill": 0.508,
         "wire_width": 6.0
