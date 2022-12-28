@@ -1636,7 +1636,7 @@
     (property "Value" "Screw_Terminal_01x10" (id 1) (at 220.98 39.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 217.805 36.83 0)
+    (property "Footprint" "1190372:1190372" (id 2) (at 217.805 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 217.805 36.83 0)
