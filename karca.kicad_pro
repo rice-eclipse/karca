@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 10.8,
-          "width": 9.4
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -441,7 +441,20 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DRIVER",
-        "nets": [],
+        "nets": [
+          "/Drivers/DRV1_NEG",
+          "/Drivers/DRV1_POS",
+          "/Drivers/DRV2_NEG",
+          "/Drivers/DRV2_POS",
+          "/Drivers/DRV3_NEG",
+          "/Drivers/DRV3_POS",
+          "/Drivers/DRV4_NEG",
+          "/Drivers/DRV4_POS",
+          "/Drivers/DRV5_NEG",
+          "/Drivers/DRV5_POS",
+          "/Drivers/DRV6_NEG",
+          "/Drivers/DRV6_POS"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.27,
