@@ -918,7 +918,7 @@
     (in_bom yes) (on_board yes)
     (uuid e0171af4-7c72-461b-bde8-71a4705d6a1e)
     (property "Reference" "HBT1" (id 0) (at 75.565 95.25 0))
-    (property "Value" "BLU" (id 1) (at 75.565 100.33 0))
+    (property "Value" "GRN" (id 1) (at 75.565 100.33 0))
     (property "Footprint" "LED_SMD:LED_1206_3216Metric" (id 2) (at 75.565 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
