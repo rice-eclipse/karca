@@ -1637,19 +1637,19 @@
       (reference "U6") (unit 1) (value "MCP6N11") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/9a4a6080-b078-4818-9d7e-d03e9a01f2e5"
-      (reference "U7") (unit 1) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U7") (unit 1) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/0be0f2eb-f295-46d9-b886-b4e8a0e6385c"
-      (reference "U7") (unit 2) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U7") (unit 2) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/6f44afcf-9d8b-4bac-8255-a2b687915209"
-      (reference "U7") (unit 3) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U7") (unit 3) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/a2db8098-ce74-4275-8ea4-526e5c806654"
-      (reference "U7") (unit 4) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U7") (unit 4) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/ac6bc438-ea5c-4d56-b932-cfd025646f51"
-      (reference "U7") (unit 5) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U7") (unit 5) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/65b2f578-7f47-4e10-b498-8cc5c2de5ceb/5c9853e6-a3be-496c-8483-e9d79ac86098"
       (reference "U8") (unit 1) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
@@ -1667,19 +1667,19 @@
       (reference "U8") (unit 5) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/04f8cc1c-06b1-4e97-9f94-767143058a83"
-      (reference "U11") (unit 1) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U11") (unit 1) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/fc38781a-8efa-422b-a0a8-d9a1d8640d23"
-      (reference "U11") (unit 2) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U11") (unit 2) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/12e4fbba-5d0d-49e3-8840-942f963e8e6d"
-      (reference "U11") (unit 3) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U11") (unit 3) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/5b54ae27-a815-421f-bc14-96e120b9a37b"
-      (reference "U11") (unit 4) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U11") (unit 4) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/d974749e-215f-46b5-a007-0416cfb921b4/12a01906-be17-4cb0-a25b-8bace301b830"
-      (reference "U11") (unit 5) (value "LM324DT") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U11") (unit 5) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
   )
 )
