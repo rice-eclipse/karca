@@ -1173,7 +1173,6 @@
     )
   )
 
-
   (junction (at 96.52 145.415) (diameter 0) (color 0 0 0 0)
     (uuid 02b8270c-2beb-4368-8bd4-6c8e8dfe0408)
   )
@@ -2420,6 +2419,10 @@
   (text "Instrumentation amps" (at 69.215 171.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03611962-71b2-42de-89fe-75fc80aaee86)
+  )
+  (text "Reference voltage buffering" (at 95.885 196.215 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 91ba884d-3d71-4c56-89aa-cfc463ed3e4d)
   )
   (text "Anti-aliasing" (at 153.035 193.675 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
