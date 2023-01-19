@@ -1,11 +1,11 @@
 # kARCA Design Outline
 
+![3D render of kARCA PCB.](img/karca-3d.png)
+
 This design outline is inteded as a reference for future Rice Eclipse members who either need to
 edit the design of kARCA or better understand it.
 
 It is also intended to be a comprehensive spec for working with the board.
-
-![3D render of kARCA PCB.](img/karca-3d.png)
 
 ## Project Motivation
 
@@ -49,13 +49,31 @@ It must:
 
 ![Linear dropout regulators.](img/schematics/karca-regulators.svg)
 
+Power management consists of 3 separate voltage levels: 12 volts, 10 volts, and 5 volts.
+
+The 12 volt lines are used for powering the solenoid driver circuits, the router, and the fan.
+The 10 volt line is used for powering the analog amplification hardware (with the exception of the
+load cell instrumentation amplifiers) and the pressure transducers.
+The 5 volt line is used for powering the Raspberry Pi, the ADCs, the instrumentation amplifiers,
+the thermocouple breakout boards, and the load cell.
+
+The 5 volt and 10 volt lines are both supplied by linear dropout (LDO) regulators.
+These regulators have the benefit of being stupid-simple at the cost of poor efficiency.
+We've included flyback Schottky diodes on each regulator to hopefully reduce the risk of
+reverse-biasing damanging the regulators.
+
+_Note for future designs: it is possible to remove the 10V line from the design and substitute the
+12V line.
+The 10V line was only kept for backward compatibility, not for any material value._
+
+The status light LED13 is lit when power is supplied to the 12V battery line.
+LED14 and LED15 are lit when the LDO regulators for 10V and 5V respectively are working.
+
 ### Data collection
 
 #### Load cells
 
-![Load cell instrumentation amps.](img/schematics/karca-Load%20Cell%20Inamps.svg)
-
-![Load cell anti-aliasing filters.](img/schematics/karca-Load%20Cell%20Anti-Aliasing.svg)
+![Load cell amplification and filtering.](img/schematics/karca-Load%20Cells.svg)
 
 A load cell is a linear device used to measure force.
 Power is supplied to the load cell through a positive and negative terminal, and then the load cell
@@ -111,6 +129,22 @@ We then amplify the input voltage by a gain of 10.22, yielding a minimum output 
 and a maximum of 4.5 V.
 Although we aren't using the full scale, it's "good enough" for our needs, giving us a resolution of
 0.34 psi.
+The gain of the amplifier is determined by the ratio of the feeback and gain resistors on the output
+of the amplifier.
+The gain for each channel is the same, so we only provide a sample formula for PT1's gain below.
+
+$$
+G = 1 + \frac{R_{73}}{R_{75}}
+$$
+
+Additionally, we anti-alias the pressure transducer signal with a two-pole Sallen-Key low-pass
+filter.
+The cutoff frequency is identical across all four PT channels, and is determined by the values of the input resistors and capacitors in the amplifier.
+We provide a sample formula for PT1's gain below.
+
+$$
+f_c = \frac{1}{2 \pi \sqrt{R_{68} R_{69} C_{28} C_{26}}}
+$$
 
 Since the pressure transducer anti-aliasing amplifier is supplied by 10 V, we also include a set of
 Schottky diodes to prevent the amplifier from sending too high of a voltage to the ADC.
