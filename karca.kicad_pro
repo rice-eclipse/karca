@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|237850001|31750000|127d14e6-1601-413b-b0c6-3d27ea153bc3|cc989dc4-5252-4ead-b33b-aad9530d27bf"
+      ],
       "meta": {
         "version": 2
       },
@@ -332,7 +334,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -370,7 +372,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
+        "clearance": 0.508,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -378,10 +380,12 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "+10V",
-        "nets": [],
+        "nets": [
+          "+10V"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.508,
         "via_diameter": 1.016,
         "via_drill": 0.508,
         "wire_width": 6.0
@@ -411,7 +415,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
+        "clearance": 0.508,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -419,10 +423,12 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "+5V",
-        "nets": [],
+        "nets": [
+          "+5V"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.508,
         "via_diameter": 1.016,
         "via_drill": 0.508,
         "wire_width": 6.0
@@ -438,18 +444,18 @@
         "microvia_drill": 0.1,
         "name": "DRIVER",
         "nets": [
-          "/Drivers/DRV_NEG_1",
-          "/Drivers/DRV_NEG_2",
-          "/Drivers/DRV_NEG_3",
-          "/Drivers/DRV_NEG_4",
-          "/Drivers/DRV_NEG_5",
-          "/Drivers/DRV_NEG_6",
-          "/Drivers/DRV_POS_1",
-          "/Drivers/DRV_POS_2",
-          "/Drivers/DRV_POS_3",
-          "/Drivers/DRV_POS_4",
-          "/Drivers/DRV_POS_5",
-          "/Drivers/DRV_POS_6"
+          "/Drivers/DRV1_NEG",
+          "/Drivers/DRV1_POS",
+          "/Drivers/DRV2_NEG",
+          "/Drivers/DRV2_POS",
+          "/Drivers/DRV3_NEG",
+          "/Drivers/DRV3_POS",
+          "/Drivers/DRV4_NEG",
+          "/Drivers/DRV4_POS",
+          "/Drivers/DRV5_NEG",
+          "/Drivers/DRV5_POS",
+          "/Drivers/DRV6_NEG",
+          "/Drivers/DRV6_POS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -468,10 +474,12 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "nets": [],
+        "nets": [
+          "GND"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.508,
         "via_diameter": 1.016,
         "via_drill": 0.508,
         "wire_width": 6.0
@@ -546,11 +554,7 @@
     ],
     [
       "65b2f578-7f47-4e10-b498-8cc5c2de5ceb",
-      "Load Cell Inamps"
-    ],
-    [
-      "5be75c7d-aeaf-4651-903f-4fa3c98c0d90",
-      "Load Cell Anti-Aliasing"
+      "Load Cells"
     ],
     [
       "d974749e-215f-46b5-a007-0416cfb921b4",
@@ -559,10 +563,6 @@
     [
       "2ecca342-0668-4e36-84dc-b8a6ec02bba5",
       "Thermocouples"
-    ],
-    [
-      "f9b56273-510a-4f1f-8845-adebb323cd86",
-      "ADCs"
     ],
     [
       "1d2f7b4c-e83f-4cee-b3c6-61e1093bdc7e",
