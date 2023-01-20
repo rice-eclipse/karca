@@ -263,3 +263,67 @@ This is intended as a reference for programmers working on `slonk`,
 | 5       | unused |
 | 6       | unused |
 | 7       | unused |
+
+## Wiring
+
+This is a reference table for the internal wiring of the box and the external wiring harness of the
+Titan rocket system.
+
+**WARNING: This wiring harness was actually made with an oversight. In an XLR connector, pin 1
+should nominally always be ground because it is connected to the chassis and outside housing of the
+connector.
+The original designers of the wiring harness that `kARCA` replaces did not account for this.
+As a result, that legacy pin assignment was in error.
+The `kARCA` pin assignment matches that legacy assignment because it was assumed that the legacy
+system would be needed as a backup.
+We strongly recommend re-soldering every connector in the system as soon as the predecessor system
+can be retired.**
+
+In each of the tables below, _Color (External)_ refers to the color of the wire in the exterior
+wiring harness, which may not match the internal color.
+
+### Pressure transducer wiring
+
+| XLR Pin Number | Purpose    | Color (Internal) | Color (External) | Gauge (AWG) |
+| -------------- | ---------- | ---------------- | ---------------: | ----------- |
+| 1              | +10V       | Red              |              Red | 22          |
+| 2              | Signal (-) | Blue             |             Blue | 22          |
+| 3              | Unused     | -                |                - | 22          |
+
+### Load cell wiring
+
+The load cells use a wonky 5-pin XLR connector.
+
+Traditionally, green is used for ground or negative signals, but this is yet another design error
+inherited from legacy systems.
+
+| XLR Pin Number | Purpose    | Color (Internal) | Color (External) | Gauge (AWG) |
+| -------------- | ---------- | ---------------- | ---------------- | ----------: |
+| 1              | Signal (-) | White            | White            |          22 |
+| 2              | +5V        | Red              | Red              |          22 |
+| 3              | Ground     | Black            | Black            |          22 |
+| 4              | Signal (+) | Green            | Green            |          22 |
+| 5              | Unused     | -                | -                |           - |
+
+### Thermocouple wiring
+
+| XLR Pin Number | Purpose | Color (Internal) | Color (External) | Gauge (AWG) |
+| -------------- | ------- | ---------------- | ---------------- | ----------- |
+| 1              | +5V     | Red              | Red              | 22          |
+| 2              | Ground  | Black            | Black            | 22          |
+| 3              | Signal  | White            | ?                | 22          |
+
+### Driver wiring
+
+Note that this only applies to drivers 1 through 5; driver 6 is connected internally to the ignition
+system.
+
+| XLR Pin Number | Purpose     | Color (Internal) | Color (External) | Gauge (AWG) |
+| -------------- | ----------- | ---------------- | ---------------- | ----------- |
+| 1              | +12V        | Red              | Red              | 14          |
+| 2              | Control (-) | Black            | Black            | 14          |
+| 3              | Unused      | -                | -                | -           |
+
+### Battery power wiring
+
+### Ignition wiring
