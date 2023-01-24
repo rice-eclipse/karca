@@ -198,7 +198,7 @@ This is intended as a reference for programmers working on `slonk`,
 |     12 | GPIO                  |      18 | -                |
 |     13 | GPIO                  |      27 | Driver 5 control |
 |     14 | GND                   |       - | GND              |
-|     15 | GPIO                  |      23 | Driver 4 control |
+|     15 | GPIO                  |      22 | Driver 4 control |
 |     16 | GPIO                  |      23 | -                |
 |     17 | +3.3V                 |       - | -                |
 |     18 | GPIO                  |      24 | -                |
