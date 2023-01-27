@@ -4,7 +4,10 @@
 
 - No test pad on GND.
 
-- Incorrect resistor value for 10V LED.
+- 10V regulator just didn't work.
+  We're not yet sure as to why, but I suspect that it's because the feedback resistors were too
+  large.
+  We'll experiment further shortly.
 
 ## Future design improvements
 
@@ -20,6 +23,12 @@
 - We could move to XT30s for outside power connections instead of using random connectors we found
   off of Amazon.
 
+- We can swap to a different instrumentation amp which is actually in stock at JLC to prevent us
+  from having to solder any SMD components.
+
+- Not entirely necessary, but because JLC is assembling all our passives, we can use smaller passive
+  footprints (0402, anybody?).
+
 ## Challenges encountered
 
 This section is for problems we ran into that weren't exactly design flaws and would be hard to fix
@@ -27,3 +36,7 @@ in the first place.
 
 - Thermal mass on the ground plane is so enormous that it takes several minutes to get a pin hot
   enough for soldering.
+
+- We were able to reverse-bias the router and smoke it.
+  There's no 100% fix (we would need a diode inside the router) but I think having a "main" fuse
+  would be a good start.
