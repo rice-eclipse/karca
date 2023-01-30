@@ -7,7 +7,12 @@
 - 10V regulator just didn't work.
   We're not yet sure as to why, but I suspect that it's because the feedback resistors were too
   large.
-  We'll experiment further shortly.
+  Independent of the cause of this issue, for some reason we managed to poke the PCB in just the
+  right way to short 10V and 12V together (how?).
+
+- The Raspberry Pi couldn't source enough current to run the heartbeat light.
+  The heartbeat light requires 30 mA of current, while the Pi can only support 16 mA.
+  Future designs will need to include a MOSFET for controlling this light.
 
 ## Future design improvements
 
@@ -40,3 +45,13 @@ in the first place.
 - We were able to reverse-bias the router and smoke it.
   There's no 100% fix (we would need a diode inside the router) but I think having a "main" fuse
   would be a good start.
+
+- The 10V LDO was just a mess.
+  If you cut it, you can skip it, maybe?
+
+- Unable to talk to the pressure transducer ADC.
+  Currently investigating this...
+
+- Sometimes wiggling the battery connector temporarily disconnects it, causing a reboot.
+  Shoving the wire deeper in seems to sometimes fix it.
+  Maybe this is because it uses a very large gauge?
