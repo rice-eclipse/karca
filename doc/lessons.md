@@ -17,8 +17,15 @@
 ## Future design improvements
 
 - Switch to 5V rail-to-rail opamps to simplify the design and reduce the number of diodes.
+  Consider OPA4196 for a drop-in replacement to LM324.
 
-- We can cut the 10V line and substitute using 12V to power the pressure transducers and amplifiers.
+- To reduce ratsnesting in the layout, switch to having full "pipelines" on the same quad-amp
+  circuit.
+
+- Add unity-gain amps on the shunt values in order to prevent the impedance of the amplifier from
+  letting current leak in from the PT.
+
+- We can cut the 10V line and substitute using 12V to power the pressure transducers.
 
 - Redo the external wiring to have ground always on pin 1.
 
