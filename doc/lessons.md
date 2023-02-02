@@ -66,4 +66,5 @@ in the first place.
 
 - Sometimes wiggling the battery connector temporarily disconnects it, causing a reboot.
   Shoving the wire deeper in seems to sometimes fix it.
-  Maybe this is because it uses a very large gauge?
+  This is only on the battery connector, and may be because of the short damaging the contacts on
+  the connector.
