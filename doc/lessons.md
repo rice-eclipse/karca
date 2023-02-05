@@ -14,6 +14,8 @@
   The heartbeat light requires 30 mA of current, while the Pi can only support 16 mA.
   Future designs will need to include a MOSFET for controlling this light.
 
+- LC1 and LC2 were labeled on the PCB as LC3 and LC4.
+
 ## Future design improvements
 
 - Switch to 5V rail-to-rail opamps to simplify the design and reduce the number of diodes.
@@ -44,6 +46,13 @@
 
 - Not entirely necessary, but because JLC is assembling all our passives, we can use smaller passive
   footprints (0402, anybody?).
+  However, since this makes it easier to desolder stuff after the fact, and gives us bigger spots
+  to use as test pads, I'm not so concerned.
+
+- The pressure transducer amplifier spiked periodically.
+  Removing the anti-aliasing capacitors fixed this.
+  My current guess is that the capacitors were small enough to induce oscillations caused by the
+  slew rate of the opamp.
 
 ## Challenges encountered
 
@@ -59,10 +68,6 @@ in the first place.
 
 - The 10V LDO was just a mess.
   If you cut it, you can skip it, maybe?
-
-- The pressure transducer amplifier for some reason creates a periodic voltage spike with alarming
-  regularity.
-  Why is this?
 
 - Sometimes wiggling the battery connector temporarily disconnects it, causing a reboot.
   Shoving the wire deeper in seems to sometimes fix it.
