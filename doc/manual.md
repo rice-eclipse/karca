@@ -10,7 +10,7 @@ These are bare-minimum instructions for running the engine controller.
 To do more complex things, you will need to review some of the later procedures in addition to this
 one.
 
-### Materials required
+### Controller: Materials required
 
 - Assembled `kARCA` box
 - 1 12V battery
@@ -18,7 +18,7 @@ one.
 - 1 male-to-male Ethernet cable
 - Computer with SSH client and `slonkboard` installed, as well as Ethernet capability or adapter
 
-### Assembly
+### Controller: Assembly
 
 ![The final assembled setup for running the controller.](img/running_controller_assembly.png)
 
@@ -26,7 +26,7 @@ one.
   Fucking Power Connector cable.
 - Connect your computer to the `kARCA` box using the male-to-male Ethernet cable.
 
-### Procedure
+### Controller: Procedure
 
 1. **Turn on the box.**
    Inside of the `kARCA` box, toggle the main power switch to the ON state.
@@ -135,3 +135,67 @@ one.
 
    After connection, new graphical elements should appear on `slonkboard`, and the controller
    software should also print out a confirmation that a new client has connected.
+
+## Using the antennae
+
+### Antennae: Materials required
+
+- 1 assembled `kARCA` box
+- 1 12V battery
+- 1 2-pin Anderson to Fucking Power Connector cable
+- 1 male-to-male Ethernet cable
+- 1 XLR to router barrel-jack cable
+- 1 Linksys 1200ac router
+- 2 Fucking Router Connector to Fucking Antenna Connector cables
+- 2 long-range 2.4 GHz directional antennae
+- 1 Fucking Router Connector to USB or similar adapter
+- Computer with SSH client and `slonkboard` installed
+
+### Antennae: Assembly
+
+![The final assembly setup for using the long-range antennae.](img/using-antennae-assembly.png)
+
+- **Basic power setup.**
+  Set up the battery connector as described in
+  [the controller setup procedure](#controller-assembly) and turn the main power switch on.
+
+- **Connect the router to the box.**
+  Connect the XLR to router barrel-jack cable between the "ROUTER POWER" output on the box and the
+  female barrel jack connector on the box.
+  Connect the male-to-male Ethernet cable to the RJ45 output on the box and to the RJ45 connector
+  for port 1 on the router.
+
+- **Connect the router to an antenna.**
+  Connect one of the antenna out connectors on the router to the antenna using a Fucking Router
+  Connector to Fucking Antenna Connector cable.
+
+- **Connect the dashboard computer to another antenna.**
+  Connect the dashboard computer to the USB adapter and then the adapter to the second antenna with
+  a Fucking Router Connector to Fucking Antenna Connector cable.
+
+- **Point the antennae toward each other.**
+  The antennae are directional, so they must be pointed toward each other to work correctly.
+  They seem to be relatively picky about their angle, so this may be difficult.
+
+### Antennae: Procedure
+
+- **Turn on the box.**
+  For more details, refer to [the controller setup procedure](#controller-procedure).
+
+- **Turn on the router.**
+  To do so, flip the power switch on the back face of the router.
+  The router power light should immediately turn on.
+
+- **Wait for the router to boot.**
+  The router will take roughly 1 minute to boot.
+  When it is finished, the port 1 light on the router should begin flashing and the "internet"
+  light should flash orange.
+
+- **Connect the dashboard computer to the router's WiFi network.**
+  If all was done correctly, the router's network should appear as a visible Wi-Fi network to the
+  dashboard computer.
+  Connect to this network.
+  Historically, the name of this network has been `rice-eclipse-box-2g`.
+
+- **Run the controller and dashboard software.**
+  For more details, refer to [the controller setup procedure](#controller-procedure).
