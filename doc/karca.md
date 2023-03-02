@@ -171,14 +171,36 @@ approach.
 
 ![Valve drivers and ignition driver.](img/schematics/karca-Drivers.svg)
 
+The core of the valve actuation system is a NMOSFET.
+When the control pin on the Raspberry Pi (the gate of the FET) is brough to a high voltage, the FET
+closes the loop and allows current to flow from the negative output to GND.
+Otherwise, there is a high-impedance connection between the negative output and GND.
+
+The positive output is connected to +12V by a replaceable fuse.
+This fuse's trip current can be scaled to the intended current draw of the system.
+
+There are two lights for each driver: a blue fuse status light, which is on when the fuse is
+inserted and not tripped, and the driver status light, which is on when the fuse is active and the
+driver is actuated.
+
+The gate of the FET is by default pulled down by a resistor so that the system defaults off when
+the engine controller is not running.
+If in the future we want to change this behavior to be default on, we can remove the pulldown
+resistor and populate the currently-DNPed pullup resistor.
+
 ### Ignition system
 
 As far as the `kARCA` PCB is concerned, the ignition system is just another valve.
+Traditionally, the 6th driver is reserved for ignition.
+To make assembly easier, two additional outputs (+12V and GND) are provided on the ignition output
+connector.
+In the current setup, only the GND pin is used (as a sink for current from the buzzer).
+
 Externally, though, the ignition system is a two-step sequence of relays.
 
 ## Pinouts
 
-This is intended as a reference for programmers working on `slonk`,
+This is intended as a reference for programmers working on `slonk`.
 
 ### Raspberry Pi
 

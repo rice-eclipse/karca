@@ -16,6 +16,8 @@
 
 - LC1 and LC2 were labeled on the PCB as LC3 and LC4.
 
+- Wrong chirality for power switches.
+
 ## Future design improvements
 
 - Switch to 5V rail-to-rail opamps to simplify the design and reduce the number of diodes.
